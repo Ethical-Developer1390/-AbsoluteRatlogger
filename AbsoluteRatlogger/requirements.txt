@@ -1,0 +1,18 @@
+# PhantomFramework dependencies
+
+# Core
+aiohttp>=3.9.0          # Web dashboard
+asyncio-throttle>=1.0   # Rate limiting
+
+# Crypto
+pycryptodome>=3.20.0    # AES-256-GCM
+
+# Payload building
+pyinstaller>=6.0.0      # Compile to standalone exe
+
+# Screen capture (server-side for testing)
+Pillow>=10.0.0          # Image processing
+
+# Optional (for specific modules)
+requests>=2.31.0        # HTTP client
+psutil>=5.9.0           # Process/system info
